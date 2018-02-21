@@ -1,0 +1,16 @@
+{
+  "components": [
+    {
+      "tag": "ae-hello",
+      "dependencies": [],
+      "componentClass": "AeHello",
+      "componentPath": "hello/aeHello.js",
+      "styles": {}
+    }
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.6.5",
+    "typescriptVersion": "2.7.2"
+  }
+}

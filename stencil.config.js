@@ -1,7 +1,6 @@
 exports.config = {
-};
-
-exports.devServer = {
-  root: 'www',
-  watchGlob: '**/**'
+    namespace: 'aepp-components',
+    srcDir: './src',
+    generateDistribution: true,
+    generateWWW: false
 };

@@ -5,13 +5,13 @@ import { Component } from '@stencil/core';
     tag: 'ae-hello',
     // styleUrl: 'my-app.css'
 })
-export class Hello {
+export class AeHello {
 
     render() {
         return (
             <div>
                 <header>
-                    <h1>Hello</h1>
+                    <h1>Hekkjhoiuoius</h1>
                 </header>
             </div>
         );

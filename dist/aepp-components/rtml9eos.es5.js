@@ -1,0 +1,2 @@
+/*! Built with http://stenciljs.com */
+AeppComponents.loadBundle("rtml9eos",["exports"],function(e){var n=window.AeppComponents.h,o=function(){function e(){}return e.prototype.render=function(){return n("div",null,n("header",null,n("h1",null,"Hekkjhoiuoius")))},Object.defineProperty(e,"is",{get:function(){return"ae-hello"},enumerable:!0,configurable:!0}),e}();e.AeHello=o,Object.defineProperty(e,"__esModule",{value:!0})});
