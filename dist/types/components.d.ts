@@ -16,7 +16,7 @@ declare global {
 
 import {
   AeHello as AeHello
-} from './hello/aeHello';
+} from './hello/ae-hello';
 
 declare global {
   interface HTMLAeHelloElement extends AeHello, HTMLStencilElement {
@@ -38,7 +38,8 @@ declare global {
   }
   namespace JSXElements {
     export interface AeHelloAttributes extends HTMLAttributes {
-      
+      first?: string;
+      last?: string;
     }
   }
 }
