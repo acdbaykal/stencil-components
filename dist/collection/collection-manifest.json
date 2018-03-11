@@ -4,8 +4,23 @@
       "tag": "ae-hello",
       "dependencies": [],
       "componentClass": "AeHello",
-      "componentPath": "hello/aeHello.js",
-      "styles": {}
+      "componentPath": "hello/ae-hello.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "first",
+          "type": "String"
+        },
+        {
+          "name": "last",
+          "type": "String"
+        }
+      ],
+      "states": [
+        {
+          "name": "isVisible"
+        }
+      ]
     }
   ],
   "compiler": {

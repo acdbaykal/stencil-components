@@ -1,2 +1,0 @@
-/*! Built with http://stenciljs.com */
-const{h:e}=window.AeppComponents;class n{render(){return e("div",null,e("header",null,e("h1",null,"Hekkjhoiuoius")))}static get is(){return"ae-hello"}}export{n as AeHello};

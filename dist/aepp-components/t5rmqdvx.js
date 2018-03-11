@@ -1,0 +1,2 @@
+/*! Built with http://stenciljs.com */
+const{h:t}=window.AeppComponents;class s{constructor(){this.isVisible=!0}render(){return t("p",null,"Hello, my name is ",this.first," ",this.last)}static get is(){return"ae-hello"}static get properties(){return{first:{type:String,attr:"first"},isVisible:{state:!0},last:{type:String,attr:"last"}}}}export{s as AeHello};
